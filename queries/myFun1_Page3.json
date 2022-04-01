@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "testingJS.myFun2",
+    "name": "myFun1",
+    "fullyQualifiedName": "testingJS.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,15 +13,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page2",
-    "collectionId": "Page2_testingJS",
+    "pageId": "Page3",
+    "collectionId": "Page3_testingJS",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\t//use async-await or promises\n\t\t//appsmith\n\t\t//appsmith\n\t\t//appsmith\n\t}",
+      "body": "() => {\n\t\t//write code here\n\t}",
       "jsArguments": [],
-      "isAsync": true
+      "isAsync": false
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -34,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\t//use async-await or promises\n\t\t//appsmith\n\t\t//appsmith\n\t\t//appsmith\n\t}"
+      "() => {\n\t\t//write code here\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page2_testingJS.myFun2",
+  "id": "Page3_testingJS.myFun1",
   "deleted": false,
-  "gitSyncId": "62468e3f97dde1526a12fb82_62468e6697dde1526a12fb8e"
+  "gitSyncId": "62468e8d97dde1526a12fb93_62468f0a97dde1526a12fba9"
 }
